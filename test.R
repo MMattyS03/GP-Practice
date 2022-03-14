@@ -1,6 +1,4 @@
-y=function(q){
-  1/2*qˆ(2)+8
-}
+
 library(usethis)
 # Getting personal access token
 create_github_token()
