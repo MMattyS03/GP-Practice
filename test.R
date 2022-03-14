@@ -1,3 +1,8 @@
 y=function(q){
   1/2*qˆ(2)+8
 }
+library(usethis)
+# Getting personal access token
+create_github_token()
+edit_r_environ()
+use_github(protocol='https',auth_token=Sys.getenv("GITHUB_PAT"))
