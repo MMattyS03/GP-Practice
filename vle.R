@@ -7,3 +7,4 @@ library(tidyverse)
 
 # Creating a histogram for code_module against count
 ggplot(data=vle)+geom_bar(mapping=aes(x=code_module))
+# Testing Git
